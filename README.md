@@ -1,18 +1,25 @@
-## Getting Started
+O seu professor de programação gostaria de fazer uma tela com as seguintes características:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+    Ter 39 traços (-) na primeira linha;
+    Ter uma | embaixo do primeiro traço e do trigésimo nono traço da primeira linha, embaixo do 2o traço deve começar a escrever "x = 35" e o restante preencher com espaço em branco;
+    Ter uma | embaixo do primeiro traço e do trigésimo nono traço da primeira linha, preencher no meio com espaço em branco;
+    Ter uma | embaixo do primeiro traço e do trigésimo nono traço da primeira linha, embaixo do 17o traço deve começar a escrever "x = 35" e o restante preencher com espaço em branco;
+    Repita o procedimento 3;
+    Ter uma | embaixo do primeiro traço e do trigésimo nono traço da primeira linha, embaixo do 33o traço deve começar a escrever "x = 35" e o restante preencher no meio com espaço em branco;
+    Repita o procedimento 1.
 
-## Folder Structure
+No final deve ficar igual a imagem a seguir:
 
-The workspace contains two folders by default, where:
+--------------------------------------- (39 traços)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+|x = 35                               |
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+|                                     |
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+|                x = 35               |
 
-## Dependency Management
+|                                     |
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+|                               x = 35|
+
+--------------------------------------- (39 traços)
